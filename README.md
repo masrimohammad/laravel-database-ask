@@ -68,6 +68,8 @@ First, you need to configure your OpenAI API key in your `.env` file:
 
 ```dotenv
 DATABASE_ASK_OPEN_AI_API_KEY=sk-...
+DATABASE_ASK_CONNECTION=mysql
+DATABASE_ASK_STRICT_MODE=true
 ```
 
 Then, you can use the `DatabaseAsk::prompt()` method to ask the database:
@@ -76,14 +78,6 @@ Then, you can use the `DatabaseAsk::prompt()` method to ask the database:
 $dbAsk = new DatabaseAsk();
 $dbAsk->prompt('How many users do we have on the "pro" plan?');
 ```
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
