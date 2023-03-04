@@ -1,0 +1,25 @@
+{
+    "name": "database/ask",
+    "description": "Database Ask allows you to interact with your database using natural language",
+    "keywords": ["laravel", "chatgpt", "openai", "database"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Database\\Ask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamad Masri",
+            "email": "mdjbugz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "5.4.*",
+        "orhanerday/open-ai": "^3.5",
+        "doctrine/dbal": "2.*"
+    },
+    "minimum-stability": "stable"
+}
