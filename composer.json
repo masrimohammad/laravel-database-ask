@@ -15,6 +15,13 @@
             "email": "mdjbugz@gmail.com"
         }
     ],
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi",
+            "@php artisan vendor:publish --tag=database-config --force"
+        ]
+    },
     "require": {
         "php": "^7.4",
         "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
