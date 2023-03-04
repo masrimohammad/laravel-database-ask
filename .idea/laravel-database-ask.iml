@@ -5,16 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Database\Ask\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/orhanerday/open-ai" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/illuminate/support" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/event-manager" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
