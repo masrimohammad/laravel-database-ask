@@ -9,10 +9,20 @@ DataBaseAsk::prompt('How many users do we have on the "pro" plan?');
 
 ## Installation
 
-You can install the package via composer:
+You can install the package via composer.
+By default, Composer pulls in packages from Packagist, so you’ll have to make a slight adjustment to your new project composer.json file. Open the file and update include the following array somewhere in the object:
 
 ```bash
-composer require masrimohamad/laravel-database-ask
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/masrimohammad/laravel-database-ask"
+    }
+]
+```
+
+```bash
+composer require database/ask
 ```
 
 You can publish the config file with:

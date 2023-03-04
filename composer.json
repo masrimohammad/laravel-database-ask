@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^7.4",
-        "illuminate/support": "5.4.*",
+        "illuminate/support": "v5.4.0",
         "orhanerday/open-ai": "^3.5",
         "doctrine/dbal": "2.*"
     },

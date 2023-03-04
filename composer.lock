@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a369df600b96252f1369511c1f1bca20",
+    "content-hash": "642d8cd1d7066665ea4205aaf8d19430",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -487,20 +487,20 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.4.36",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "feab1d1495fd6d38970bd6c83586ba2ace8f299a"
+                "reference": "7abd69eb3f83004664ab40f8e9c6914935c30752"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/feab1d1495fd6d38970bd6c83586ba2ace8f299a",
-                "reference": "feab1d1495fd6d38970bd6c83586ba2ace8f299a",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/7abd69eb3f83004664ab40f8e9c6914935c30752",
+                "reference": "7abd69eb3f83004664ab40f8e9c6914935c30752",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "~1.1",
+                "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
                 "illuminate/contracts": "5.4.*",
                 "paragonie/random_compat": "~1.4|~2.0",
@@ -544,7 +544,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2017-08-15T13:25:41+00:00"
+            "time": "2017-01-24T13:12:44+00:00"
         },
         {
             "name": "orhanerday/open-ai",
