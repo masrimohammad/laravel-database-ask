@@ -14,10 +14,10 @@ class DatabaseAskServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '../views', 'database-ask');
+        $this->loadViewsFrom(__DIR__, 1 . '/views', 'database-ask');
 
         $this->publishes([
-            __DIR__ . '../config/database-ask.php' => config_path('database-ask.php')
+            __DIR__, 1 . '/config/database-ask.php' => config_path('database-ask.php')
         ], 'database-ask');
     }
 
