@@ -28,5 +28,12 @@
         "orhanerday/open-ai": "^3.5",
         "doctrine/dbal": "2.*"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Database\\Ask\\Providers\\DatabaseAskServiceProvider"
+            ]
+        }
+    }
 }
