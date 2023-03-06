@@ -1,7 +1,7 @@
 # Laravel Database Ask:
 Interact with your database using natural language
 
-Ask DB allows you to use OpenAI's GPT-3 to build natural language database queries.
+Database Ask allows you to use OpenAI's GPT-3 to build natural language database queries.
 
 ```php
 $dbAsk = new DatabaseAsk();
